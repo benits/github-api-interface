@@ -33,7 +33,7 @@ export const WrapperStatusCount = styled.div`
   display: flex;
   align-items: center;
   div {
-    margin: 8px;
+    margin: 16px;
     text-align: center;
   }
 `;
