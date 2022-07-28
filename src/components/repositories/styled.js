@@ -22,16 +22,21 @@ export const WrapperTab = styled(Tab)`
   user-select: none;
   cursor: pointer;
   z-index: 99999;
-  background-color: "#fff";
-  margin: 8px;
+  background-color: #373e47;
+  padding: 8px 16px;
+  margin: 0 16px;
+  border-radius: 8px;
 
-  &:focus {
-    outline: none;
-  }
-
-  &.is-selected {
+  &:hover {
+    background-color: #444c56;
     box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
   }
+
+  span {
+    font-weight: bold;
+    color: #ffff;
+  }
+  
 `;
 WrapperTab.tabsRole = "Tab";
 
