@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   padding: 4px;
 
   input {
-    border: 1px solid #ccc;
+    border: 1px solid #5c677b;
     border-radius: 8px;
     width: 100%;
     height: 44px;
@@ -28,7 +28,7 @@ export const Wrapper = styled.div`
 
     span {
       font-weight: bold;
-      color: #ffff;
+      color: #c8d3df;
     }
   }
 `;

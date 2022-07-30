@@ -49,8 +49,12 @@ export const WrapperUserGeneric = styled.div`
 
   a {
     font-size: 18px;
-    color: blue;
+    color: #3d67be;
     font-weight: bold;
+  }
+
+  a:hover {
+    color: #60a0d2;
   }
 `;
 
