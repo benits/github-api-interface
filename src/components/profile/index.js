@@ -42,7 +42,7 @@ const Profile = () => {
             <span> {githubState.user.followers}</span>
           </div>
           <div>
-            <h4>Followings</h4>
+            <h4>Following</h4>
             <span> {githubState.user.following}</span>
           </div>
           <div>

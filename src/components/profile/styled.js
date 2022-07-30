@@ -33,7 +33,7 @@ export const WrapperStatusCount = styled.div`
   display: flex;
   align-items: center;
   div {
-    margin: 8px;
+    margin: 16px;
     text-align: center;
   }
 `;
@@ -49,8 +49,12 @@ export const WrapperUserGeneric = styled.div`
 
   a {
     font-size: 18px;
-    color: blue;
+    color: #3d67be;
     font-weight: bold;
+  }
+
+  a:hover {
+    color: #60a0d2;
   }
 `;
 

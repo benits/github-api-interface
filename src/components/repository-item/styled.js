@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   padding: 8px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #5c677b;
   margin: 16px 16px;
-  width: 350px;
+  width: 391px;
   height: 150px;
   align-content: center;
 `;
@@ -20,7 +20,7 @@ export const WrapperFullName = styled.h2`
   font-size: 16px;
   font-weight: bold;
   margin: 8px 0;
-  color: #2d3748;
+  color: #5d687b;
 `;
 
 export const WrapperLink = styled.a`
@@ -28,4 +28,8 @@ export const WrapperLink = styled.a`
   font-weight: bold;
   margin: 8px 0;
   color: #3182ce;
+
+  :hover {
+    color: #60a0d2;
+  }
 `;

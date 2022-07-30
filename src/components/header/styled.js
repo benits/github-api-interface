@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   padding: 4px;
 
   input {
-    border: 1px solid #ccc;
+    border: 1px solid #5c677b;
     border-radius: 8px;
     width: 100%;
     height: 44px;
@@ -16,19 +16,19 @@ export const Wrapper = styled.div`
   }
 
   button {
-    background-color: #225ed8;
+    background-color: #373e47;
     padding: 8px 16px;
     margin: 0 16px;
     border-radius: 8px;
 
     &:hover {
-      background-color: #2c5282;
+      background-color: #444c56;
       box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
     }
 
     span {
       font-weight: bold;
-      color: #ffff;
+      color: #c8d3df;
     }
   }
 `;
